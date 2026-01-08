@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #f8fafc;
+}
+
+/* Sidebar*/
+.sidebar {
+    width: 260px;
+    background-color: white;
+    border-right: 1px solid #e2e8f0;
+    padding-top: 20px;
+}
+
+.sidebar-logo {
+    padding: 0 24px 30px;
+    color: #2d9a94;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-item {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #64748b;
+    font-size: 15px;
+}
+
+.nav-item.active {
+    background-color: #4db6ac;
+    color: white;
+    margin: 0 12px;
+    border-radius: 8px;
+}
+
+/* Header*/
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #78b1a8;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content-area {
+    padding: 40px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #4db6ac;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.placeholder-box {
+    padding: 20px;
+    background: white;
+    border: 1px dashed #cbd5e1;
+    border-radius: 8px;
+    color: #64748b;
+}

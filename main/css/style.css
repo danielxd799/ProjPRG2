@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #f8fafc;
+    overflow: hidden;
+    /* Zamezí dvojitému scrollbaru */
+}
+
+/* Sidebar */
+.sidebar {
+    width: 260px;
+    background-color: white;
+    border-right: 1px solid #e2e8f0;
+    padding-top: 20px;
+}
+
+.sidebar-logo {
+    padding: 0 24px 30px;
+    color: #2d9a94;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-container {
+    display: block;
+}
+
+.nav-item {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #64748b;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+.nav-item.active {
+    background-color: #4db6ac;
+    color: white;
+    margin: 0 12px;
+    border-radius: 8px;
+}
+
+.nav-item:hover:not(.active) {
+    background-color: #f1f5f9;
+}
+
+/* Hlavní obsah */
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    /* Scrolluje se jen tato část */
+}
+
+/* Horní lišta */
+.header {
+    background-color: #78b1a8;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-weight: bold;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.logout-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 5px 15px;
+    margin-left: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Sekce kroužků */
+.content-area {
+    padding: 40px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #1e293b;
+    display: inline-block;
+    border-bottom: 3px solid #4db6ac;
+    padding-bottom: 5px;
+}
+
+/* Mřížka kroužků */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Karty */
+.card {
+    background: white;
+    width: 300px;
+    /* Pevná šířka pro učitele */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    margin-bottom: 10px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-info {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Tlačítka */
+.btn-apply {
+    width: 100%;
+    background-color: #4db6ac;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
