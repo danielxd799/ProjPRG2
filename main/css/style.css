@@ -10,7 +10,7 @@ body {
     height: 100vh;
     background-color: #f8fafc;
     overflow: hidden;
-    /* Zamezí dvojitému scrollbaru */
+
 }
 
 /* Sidebar */
@@ -56,7 +56,7 @@ body {
 .main-content {
     flex: 1;
     overflow-y: auto;
-    /* Scrolluje se jen tato část */
+
 }
 
 /* Horní lišta */
@@ -114,7 +114,6 @@ body {
 .card {
     background: white;
     width: 300px;
-    /* Pevná šířka pro učitele */
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
