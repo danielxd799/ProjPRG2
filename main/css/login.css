@@ -1,0 +1,187 @@
+.login-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #1e3a5f 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-obal {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-karta {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 36px 32px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.login-logo {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.logo-ikona {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+.login-logo h1 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #1e293b;
+    margin-bottom: 4px;
+}
+
+.login-logo p {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.chybova-zprava {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: #dc2626;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.chybova-zprava::before {
+    content: '⚠️';
+}
+
+.login-formular .pole {
+    margin-bottom: 16px;
+}
+
+.login-formular .pole label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 6px;
+}
+
+.login-formular .pole input {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    color: #1e293b;
+    background: #f8fafc;
+}
+
+.login-formular .pole input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    background: #fff;
+}
+
+.btn-prihlasit {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 8px;
+    font-family: inherit;
+}
+
+.btn-prihlasit:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+}
+
+.btn-prihlasit:active {
+    transform: translateY(0);
+}
+
+.testovaci-ucty {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+    text-align: center;
+}
+
+.testovaci-ucty p {
+    font-size: 12px;
+    color: #64748b;
+    margin-bottom: 10px;
+}
+
+.testovaci-ucty code {
+    background: #f1f5f9;
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    color: #2563eb;
+}
+
+.ucty-seznam {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ucet {
+    padding: 5px 12px;
+    border-radius: 99px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1.5px solid;
+}
+
+.ucet:hover {
+    transform: translateY(-1px);
+}
+
+.ucet-zak {
+    color: #059669;
+    border-color: #059669;
+    background: rgba(16, 185, 129, 0.08);
+}
+
+.ucet-zak:hover {
+    background: rgba(16, 185, 129, 0.15);
+}
+
+.ucet-ucitel {
+    color: #2563eb;
+    border-color: #2563eb;
+    background: rgba(37, 99, 235, 0.08);
+}
+
+.ucet-ucitel:hover {
+    background: rgba(37, 99, 235, 0.15);
+}
+
+.ucet-admin {
+    color: #7c3aed;
+    border-color: #7c3aed;
+    background: rgba(124, 58, 237, 0.08);
+}
+
+.ucet-admin:hover {
+    background: rgba(124, 58, 237, 0.15);
+}
