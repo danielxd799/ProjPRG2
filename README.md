@@ -67,7 +67,7 @@ Systém je rozdělen pro 3 typy uživatelů, z nichž každý má specifické ro
 Projekt využívá oddělené složky pro každou roli:
 
 ```text
-skolni-krouzky/
+main/
 ├── index.php                  # Přihlašovací stránka
 ├── odhlasit.php               # Odhlášení a zničení session
 ├── config.php                 # Připojení k databázi, pomocné funkce
