@@ -85,7 +85,7 @@ mysqli_close($db);
             </div>
             <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
                 <div class="formular-skupina">
-                    <label>Role *</label>
+                    <label>Role</label>
                     <select name="role">
                         <option value="zak">Žák</option>
                         <option value="ucitel">Učitel</option>
