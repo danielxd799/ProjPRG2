@@ -119,6 +119,10 @@ Aplikace využívá 3 tabulky:
 
 ---
 
+### ER diagram
+<img width="798" height="1110" alt="obrazek" src="https://github.com/user-attachments/assets/74209fd4-a816-488c-8c51-933e9bfc8697" />
+
+
 ## Testovací účty
 
 Všechny testovací účty sdílejí stejné heslo.
@@ -134,11 +138,11 @@ Všechny testovací účty sdílejí stejné heslo.
 ## Instalace a spuštění
 
 1. Naklonuj repozitář nebo nahraj soubory na webový server s podporou PHP a MySQL.
-2. Importuj databázi ze souboru `if0_41951673_db_school.sql` do svého MySQL serveru.
+2. Vytvoř databázi s názvem `if0_41951673_db_school` a importuj databázi ze souboru `if0_41951673_db_school.sql` do svého MySQL serveru.
 3. Upravte přihlašovací údaje k databázi v souboru `config.php`:
    ```php
    define('DB_HOST', 'localhost');
-   define('DB_NAME', 'nazev_databaze');
+   define('DB_NAME', 'if0_41951673_db_school');
    define('DB_USER', 'uzivatel');
    define('DB_PASS', 'heslo');
    ```
