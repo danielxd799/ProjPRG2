@@ -147,3 +147,10 @@ Všechny testovací účty sdílejí stejné heslo.
    define('DB_PASS', 'heslo');
    ```
 4. Otevři aplikaci v prohlížeči a přihlaš se jedním z testovacích účtů.
+
+---
+
+## Závěr
+
+Podařilo se vytvořit funkční webovou aplikaci pro správu školních kroužků s podporou více uživatelských rolí. Projekt zahrnuje práci s databází, autentizaci uživatelů, správu dat i responzivní uživatelské rozhraní.
+Během vývoje byly využity technologie HTML, CSS, JavaScript, PHP a MySQL. Projekt zároveň pomohl prohloubit znalosti práce s databázemi, backendovou logikou i návrhem webových aplikací. Při vývoji projektu byly využity AI nástroje pouze pro pomoc s vytvářením rozvrhů a opravy některých chyb v kódu.
